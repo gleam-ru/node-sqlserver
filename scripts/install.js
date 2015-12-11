@@ -13,7 +13,8 @@ console.log( "You are downloading Microsoft Driver for Node.js for SQL Server fr
 
 var msiVer = process.version.split(".").slice(0,2).join(".");
 var msiArch = process.arch;
-var msiName = "msnodesql-" + package.version + "-" + msiVer + "-" + msiArch + ".msi";
+// var msiName = "msnodesql-" + package.version + "-" + msiVer + "-" + msiArch + ".msi";
+var msiName = "msnodesql-" + package.version + "-" + 'v0.8' + "-" + msiArch + ".msi";
 var msiUrl = {
   host: 'download.microsoft.com',
   port: 80,
